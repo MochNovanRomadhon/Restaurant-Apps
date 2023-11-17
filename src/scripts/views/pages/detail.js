@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import UrlParser from '../../routes/url-parser';
 import RestDb from '../../data/restaurantdb';
 import { RestaurantDetail } from '../templates/template-creator';
