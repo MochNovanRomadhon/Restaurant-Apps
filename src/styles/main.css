@@ -45,16 +45,16 @@ body {
 
 .head-title {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
   color: #ffff;
   
-  padding: 15px 30px;
+  padding: 15px 15px;
 }
 .head-menu{
   font-size: 32px;
   display: block;
   cursor: pointer;
-  padding: 0 10px 0 10px;
+  padding-right: 10px;
   border: none;
   background: none;
   color: #ffff;
@@ -74,7 +74,7 @@ body {
 
 .nav-item {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0;
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
@@ -272,11 +272,8 @@ picture img{
    
   .detail-restaurant {
     max-width: 800px;
-    padding: 32px;
+    padding: 24px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 18px 6px;
   }
    
   .detai-title{
@@ -487,6 +484,15 @@ footer p{
   padding-top: 10px;
   color: #ffffff;
 }
+@media screen and (max-width : 299px) {
+  .head-title{
+    font-size: 20px;
+  }
+
+  .home-title{
+    font-size: 14px;
+  }
+}
 
 @media screen and (max-width: 499px) {
   .nav {
@@ -507,6 +513,10 @@ footer p{
   .nav-item {
     width: 200%;
     text-align: left;
+  }
+
+  main{
+    width: 100%;
   }
 
   

@@ -28,7 +28,7 @@ Scenario('liking-unliking', async ({ I }) => {
   I.seeElement('#likeButton');
   I.click('#likeButton');
   I.amOnPage('/#/like');
-  I.see('Tidak ada restaurant untuk ditampilkan', '.restaurant-item__not__found');
+  I.see('Tidak ada restaurant yang disukai', '.restaurant-item__not__found');
 
   assert.strictEqual(firstRestaurantTitle, likedRestaurantTitle);
 });
